@@ -1,0 +1,25 @@
+{
+    "name": "yksi/zippie",
+    "description": "This is a little helper for the ZipArchive methods",
+    "homepage": "http://github.com/yksi/zippie",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Vitalii Krushelnytskyi",
+            "email": "embox@ukr.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-zip": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yksi\\Zippie\\": "src/"
+        }
+    }
+}
